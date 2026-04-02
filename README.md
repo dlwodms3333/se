@@ -1,6 +1,31 @@
-# SE Repository
+# Mini Drive 프로젝트 문서 저장소
 
-## 과제 결과물 위치
-doc 파일
-- 프로젝트 정의서: `project_definition.md`
-- 대상 시스템 품질 요소 추정하기: `quality_attributes.md`
+## 프로젝트 소개
+이 저장소는 **클라우드 파일 공유 시스템(Mini Drive)** 프로젝트의 기획 및 분석 문서를 정리한 레퍼지토리입니다.  
+현재는 프로젝트의 초기 설계 단계에서 작성한 주요 문서들을 포함하고 있으며,  
+프로젝트의 개요와 품질 속성을 한눈에 확인할 수 있도록 구성하였습니다.
+
+Mini Drive는 조직 내에서 파일을 효율적으로 저장, 관리, 공유할 수 있도록 지원하는  
+**클라우드 기반 파일 공유 시스템**을 목표로 합니다.
+
+---
+
+## 저장소 구성
+현재 저장소에는 다음과 같은 프로젝트 관련 문서가 포함되어 있습니다.
+
+- [프로젝트 정의서](./doc/project_definition.md)  
+  → 프로젝트의 명칭, 개발 시스템 이름, 시스템 설명, 핵심 기능 등을 정리한 문서
+
+- [대상 시스템 품질 요소 추정하기](./doc/quality_attributes.md)  
+  → 시스템 개발 시 고려해야 할 주요 품질 속성을 정리한 문서
+
+---
+
+## GitHub 파일 구조
+
+```text
+MiniDrive/
+├── README.md
+└── doc/
+    ├── project_definition.md
+    └── quality_attributes.md
