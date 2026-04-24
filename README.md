@@ -8,7 +8,8 @@
 ## 과제 결과물 위치
 - [프로젝트 정의서](./doc/project_definition.md)
 - [대상 시스템 품질 요소 추정하기](./doc/quality_attributes.md)
-
+- [프로젝트 관리 계획서](./doc/project_management_plan.md)
+  
 ---
 
 ## GitHub 파일 구조
@@ -17,4 +18,5 @@ MiniDrive/
 ├── README.md
 └── doc/
     ├── project_definition.md
-    └── quality_attributes.md
+    ├── quality_attributes.md
+    └── project_management_plan.md
