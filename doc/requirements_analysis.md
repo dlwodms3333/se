@@ -94,12 +94,13 @@ Mini Drive는 조직 내부 사용자의 파일 관리와 공유를 지원하는
 
 ```mermaid
 flowchart LR
-    User[사용자]
-    Admin[관리자]
-    External[외부 사용자]
+    사용자[사용자]
+    관리자[관리자]
+    외부사용자[외부 사용자]
 
-    subgraph System[Mini Drive]
+    subgraph MiniDrive[Mini Drive]
         UC01((로그인한다))
+
         UC02((파일을 업로드한다))
         UC03((파일을 다운로드한다))
         UC04((폴더를 관리한다))
@@ -107,33 +108,27 @@ flowchart LR
         UC06((외부 링크를 생성한다))
         UC07((파일을 검색한다))
         UC08((파일 버전을 관리한다))
+
         UC09((사용자 계정을 관리한다))
         UC10((활동 로그를 확인한다))
+
         UC11((공유 링크로 파일에 접근한다))
     end
 
-    User --- UC01
-    User --- UC02
-    User --- UC03
-    User --- UC04
-    User --- UC05
-    User --- UC06
-    User --- UC07
-    User --- UC08
+    사용자 --- UC01
+    사용자 --- UC02
+    사용자 --- UC03
+    사용자 --- UC04
+    사용자 --- UC05
+    사용자 --- UC06
+    사용자 --- UC07
+    사용자 --- UC08
 
-    Admin --- UC01
-    Admin --- UC09
-    Admin --- UC10
+    관리자 --- UC01
+    관리자 --- UC09
+    관리자 --- UC10
 
-    External --- UC11
-
-    UC02 -.include.-> UC01
-    UC03 -.include.-> UC01
-    UC04 -.include.-> UC01
-    UC05 -.include.-> UC01
-    UC06 -.include.-> UC01
-    UC08 -.include.-> UC01
-    UC11 -.include.-> UC06
+    외부사용자 --- UC11
 ```
 
 ---
