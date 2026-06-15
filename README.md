@@ -11,7 +11,7 @@
 - [프로젝트 관리 계획서](./doc/project_management_plan.md)
 - [요구사항 정의서](./doc/requirements.md)
 - [요구사항 분석서](./doc/requirements_analysis.md)
-
+- [테스트 보고서](./doc/test_report.md)
 
 ---
 
@@ -24,4 +24,5 @@ MiniDrive/
     ├── quality_attributes.md
     ├── project_management_plan.md
     ├── requirements.md
-    └── requirements_analysis.md
+    ├── requirements_analysis.md
+    └── test_report.md
